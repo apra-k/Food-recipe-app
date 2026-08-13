@@ -1,0 +1,45 @@
+.maindiv {
+    display: flex;
+    gap: 50px;
+    padding: 50px 80px;
+    min-height: 70vh;
+    align-items: flex-start;
+}
+
+.imgdiv {
+    flex: 1;
+}
+
+.imgdiv img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+
+.rightdiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.rightdiv h1,
+.rightdiv h2
+.rightdiv h3 {
+    margin: 0;
+}
+
+
+.rightdiv p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #444;
+}
+
+

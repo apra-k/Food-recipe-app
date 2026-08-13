@@ -1,0 +1,87 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.modal{
+    width: 420px;
+    max-width: 90%;
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    position: relative;
+}
+
+.modal h3{
+    font-size: 30px;
+    color: rgb(67, 63, 63);
+}
+
+.closebtn{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height:30px;
+    width:40px;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;    /* changes arrow to pointer when we hover over it */
+
+}
+
+.closebtn:hover{
+    background: #731832;
+
+}
+
+.modal input{
+    width: 75%;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 16px;
+    
+}
+
+.loginbtn{
+    
+    padding: 12px;
+
+    background: red;
+    color: white;
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    cursor: pointer;     
+
+
+}
+
+.loginbtn:hover{
+    background: #731832;
+}  
+
+.signupbtn{
+    text-decoration: underline;
+    color:blue;
+}
