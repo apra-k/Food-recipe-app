@@ -1,6 +1,9 @@
 The Food Recipe App is a web-based application developed to provide a platform where users can share, explore, and manage cooking recipes. The application allows users to view recipes posted by others and contribute their own recipes by providing the dish name, cooking instructions, and an image of the prepared dish.
 
 1)Recipe Creation: Users should be able to create a new recipe by filling out a form that includes the dish name, ingredients, and preparation instructions, which are mandatory fields. Additionally, users have the option to upload an image of the dish and specify a recipe category.
+
 2)User Authentication and Authorization: While all visitors can browse and view the recipes available on the platform, only registered and logged-in users are authorized to add new recipes. This restriction ensures that recipe creation is limited to authenticated users.
+
 3)Recipe Storage and Display: Once a recipe is submitted, it is stored in the database and displayed on the homepage in the form of a recipe card. To keep the interface clean and prevent overcrowding, each card displays only the dish image, dish name, and category. The complete details of the recipe, including the list of ingredients and cooking instructions, are shown only when the user clicks the "View Recipe" button.
+
 4)Recipe management: The user who originally created a recipe is allowed to edit or delete that recipe whenever required. This ensures that users have full control over the content they have contributed while preventing unauthorized modifications by other users.
